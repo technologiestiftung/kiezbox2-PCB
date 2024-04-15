@@ -2957,18 +2957,6 @@
 		(uuid "15140425-def6-4144-9ad1-2ddd14e2a9ae")
 	)
 	(junction
-		(at 101.6 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2077bacb-d0fe-493f-beb6-9b7b9e418da8")
-	)
-	(junction
-		(at 100.33 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a2c298-97a5-414f-9918-8c30ea084226")
-	)
-	(junction
 		(at 64.77 76.2)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -3024,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 101.6 69.85)
+			(xy 82.55 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3127,27 +3115,6 @@
 			(color 115 104 255 1)
 		)
 		(uuid "31c1da56-3d51-40f6-9149-fedbb073063e")
-	)
-	(wire
-		(pts
-			(xy 100.33 69.85) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f81e3e9-1fc7-4065-8c53-48a7078c724b")
-	)
-	(wire
-		(pts
-			(xy 82.55 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 115 104 255 1)
-		)
-		(uuid "425e808a-609a-4fc5-a6e9-89401e266e49")
 	)
 	(wire
 		(pts
@@ -3314,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 67.31) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c57fd21-2f4a-426b-ae59-9d083b5c4613")
+	)
+	(wire
+		(pts
 			(xy 64.77 22.86) (xy 86.36 22.86)
 		)
 		(stroke
@@ -3379,17 +3356,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 120.65 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 115 104 255 1)
-		)
-		(uuid "91e35b33-1ae1-4195-b8a5-404c98f9273a")
-	)
-	(wire
-		(pts
 			(xy 72.39 90.17) (xy 72.39 80.01)
 		)
 		(stroke
@@ -3431,16 +3397,6 @@
 			(color 170 240 255 1)
 		)
 		(uuid "9a6147fc-a59e-40c5-b633-77d42ef27522")
-	)
-	(wire
-		(pts
-			(xy 100.33 92.71) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d64177b-c687-4aae-9b3d-fbf43fa3afa4")
 	)
 	(wire
 		(pts
@@ -3509,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65b243c-04e7-47b8-a108-54037acb5993")
-	)
-	(wire
-		(pts
 			(xy 100.33 92.71) (xy 101.6 92.71)
 		)
 		(stroke
@@ -3539,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 120.65 67.31)
+			(xy 100.33 67.31) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
