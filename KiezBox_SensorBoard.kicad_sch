@@ -2555,6 +2555,12 @@
 		(uuid "0b0f3dbc-2755-46ce-a86a-b8fa5580e34c")
 	)
 	(junction
+		(at 81.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0d2535-9cd5-4fcc-819b-01cd87018699")
+	)
+	(junction
 		(at 152.4 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2567,22 +2573,16 @@
 		(uuid "364dba04-0fc0-4ecc-a83b-04be812eb218")
 	)
 	(junction
+		(at 81.28 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482d1b7d-d43a-4082-9e6e-dfcfa2a199a3")
+	)
+	(junction
 		(at 73.66 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59850908-b9da-4106-842b-c1ea9396b17c")
-	)
-	(junction
-		(at 81.28 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "780b16ba-0ecb-40f7-a120-6788eb2e9005")
-	)
-	(junction
-		(at 81.28 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c83762a-effe-4588-9de4-b0bc489d766c")
 	)
 	(junction
 		(at 73.66 48.26)
@@ -2622,6 +2622,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "092cf5fd-321b-4478-b8c7-c32b3225f67d")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 188 188 188 1)
+		)
+		(uuid "09e90931-b89c-4326-928c-2f05f8b4202a")
 	)
 	(wire
 		(pts
@@ -2742,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 128.27 49.53)
+			(xy 128.27 49.53) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2825,17 +2836,6 @@
 			(color 188 188 188 1)
 		)
 		(uuid "41e42d63-5a4b-45a7-ab6c-16ce7ad4c3eb")
-	)
-	(wire
-		(pts
-			(xy 30.48 80.01) (xy 128.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 188 188 188 1)
-		)
-		(uuid "461eb1ab-3baf-47df-8940-009b919baeab")
 	)
 	(wire
 		(pts
@@ -2934,6 +2934,17 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 26.67) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 26 35 1)
+		)
+		(uuid "592cfe7f-dc0e-4995-9021-58636fa29ada")
+	)
+	(wire
+		(pts
 			(xy 60.96 45.72) (xy 73.66 45.72)
 		)
 		(stroke
@@ -2978,14 +2989,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 71.12) (xy 81.28 71.12)
+			(xy 81.28 54.61) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 188 188 188 1)
 		)
-		(uuid "600e9574-9f3e-464d-ba22-6f9501818e7e")
+		(uuid "5e598b33-38fc-4447-a204-1787764fa3c5")
 	)
 	(wire
 		(pts
@@ -3077,6 +3087,28 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 74.93) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 188 188 188 1)
+		)
+		(uuid "7ee6d544-2103-4926-ad78-a7865ed237a0")
+	)
+	(wire
+		(pts
+			(xy 187.96 38.1) (xy 191.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7f082289-9faa-4fe3-8143-911728dc9edd")
+	)
+	(wire
+		(pts
 			(xy 67.31 113.03) (xy 67.31 123.19)
 		)
 		(stroke
@@ -3153,17 +3185,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 26.67) (xy 132.08 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 26 35 1)
-		)
-		(uuid "99283495-9c77-4314-8d5f-6a3eee3dc505")
-	)
-	(wire
-		(pts
 			(xy 140.97 88.9) (xy 163.83 88.9)
 		)
 		(stroke
@@ -3175,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 33.02) (xy 60.96 33.02)
+			(xy 60.96 33.02) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3183,6 +3204,17 @@
 			(color 255 26 35 1)
 		)
 		(uuid "9ff112ce-5523-484a-8ff9-9db672389f4f")
+	)
+	(wire
+		(pts
+			(xy 81.28 74.93) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 188 188 188 1)
+		)
+		(uuid "a01c3e05-cd5d-4449-ae59-f9a05793277a")
 	)
 	(wire
 		(pts
@@ -3194,17 +3226,6 @@
 			(color 188 188 188 1)
 		)
 		(uuid "a1a0527e-3cb6-4db2-aa23-616d4da32c09")
-	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 81.28 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 188 188 188 1)
-		)
-		(uuid "a1bd030e-990a-4386-a6ea-e425377e5378")
 	)
 	(wire
 		(pts
@@ -3285,17 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 38.1) (xy 185.42 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "ad0a260f-aee1-466c-b482-1c76b0e2bfac")
-	)
-	(wire
-		(pts
 			(xy 123.19 44.45) (xy 140.97 44.45)
 		)
 		(stroke
@@ -3327,14 +3337,14 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 80.01) (xy 30.48 86.36)
+			(xy 62.23 53.34) (xy 62.23 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 188 188 188 1)
 		)
-		(uuid "b4402e8d-408c-4993-a6dd-699437ba9605")
+		(uuid "b49d1db3-f6f2-479a-a660-90c0389cf4eb")
 	)
 	(wire
 		(pts
@@ -3358,14 +3368,14 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 62.23 86.36)
+			(xy 62.23 54.61) (xy 81.28 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 188 188 188 1)
 		)
-		(uuid "b5b75da7-a66d-402f-8294-af49aabae343")
+		(uuid "b61bcb2b-3798-4468-a4cb-d6d942aa532f")
 	)
 	(wire
 		(pts
@@ -3539,6 +3549,17 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 71.12) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 188 188 188 1)
+		)
+		(uuid "da9193f1-2ba9-438c-83b9-e49463425176")
+	)
+	(wire
+		(pts
 			(xy 137.16 24.13) (xy 144.78 24.13)
 		)
 		(stroke
@@ -3589,17 +3610,6 @@
 			(type default)
 		)
 		(uuid "e3b64f65-0116-462f-8601-ed99714524b9")
-	)
-	(wire
-		(pts
-			(xy 132.08 26.67) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 26 35 1)
-		)
-		(uuid "e4e3e9af-b75a-4aba-9f96-2a44f3ae3d39")
 	)
 	(wire
 		(pts
@@ -3817,7 +3827,7 @@
 			(uuid "a18f3288-6f57-42ab-a710-fc2c40dc78f5")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J9")
 					(unit 1)
@@ -3888,7 +3898,7 @@
 			(uuid "193e56c3-a154-4c8c-845e-21b8e85a1ec7")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J2")
 					(unit 1)
@@ -3898,7 +3908,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 69.85 68.58 90)
+		(at 69.85 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,7 +3917,7 @@
 		(fields_autoplaced yes)
 		(uuid "0de4384d-671a-4561-9ebb-c5bd327038ed")
 		(property "Reference" "#PWR012"
-			(at 76.2 68.58 0)
+			(at 69.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3926,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 73.66 68.5799 90)
+			(at 69.8501 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3966,7 @@
 			(uuid "1d174ba7-f148-4c50-8fc0-e46d2a292847")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR012")
 					(unit 1)
@@ -4026,7 +4036,7 @@
 			(uuid "abc7dbdc-385f-42d7-bea8-aabf496779b4")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J8")
 					(unit 1)
@@ -4036,7 +4046,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 252.73 66.04 90)
+		(at 252.73 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4045,7 +4055,7 @@
 		(fields_autoplaced yes)
 		(uuid "39286e15-441d-4bb7-be59-777640dd2c71")
 		(property "Reference" "#PWR01"
-			(at 259.08 66.04 0)
+			(at 252.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4064,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 256.54 66.0399 90)
+			(at 252.7301 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4104,7 @@
 			(uuid "0376c145-6a58-45ed-805f-b98208133af1")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR01")
 					(unit 1)
@@ -4104,7 +4114,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 185.42 38.1 270)
+		(at 191.77 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4113,7 +4123,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c00d4af-081e-411c-ae56-3c94d468dc71")
 		(property "Reference" "#PWR015"
-			(at 179.07 38.1 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4132,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 181.61 38.1001 90)
+			(at 191.7701 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 38.1 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 38.1 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 185.42 38.1 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4172,7 @@
 			(uuid "6c0de2fb-88b8-43e1-85d9-f6d2eb62b944")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR015")
 					(unit 1)
@@ -4238,7 +4248,7 @@
 			(uuid "cbdc0ab6-77da-4bef-a7b9-15ddb2cd43c4")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "Q1")
 					(unit 1)
@@ -4305,7 +4315,7 @@
 			(uuid "e9d1a3e4-e26d-4bc1-959d-ca17b7eb9158")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "R4")
 					(unit 1)
@@ -4315,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 137.16 24.13 180)
+		(at 137.16 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4324,7 +4334,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d3c18e3-3850-48dc-9f68-fb8467e3cbf0")
 		(property "Reference" "#PWR02"
-			(at 137.16 17.78 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4343,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 137.1599 20.32 90)
+			(at 137.1601 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4383,7 @@
 			(uuid "d34fcb33-e7a4-47e2-aec9-a52313f25d83")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR02")
 					(unit 1)
@@ -4383,7 +4393,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 69.85 50.8 90)
+		(at 69.85 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4392,7 +4402,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e1e688f-5070-4ccd-a926-59f8786ed5dd")
 		(property "Reference" "#PWR011"
-			(at 76.2 50.8 0)
+			(at 69.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4411,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 73.66 50.7999 90)
+			(at 69.8501 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4451,7 @@
 			(uuid "7e1f10a3-50fe-4122-9686-ef3826d253af")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR011")
 					(unit 1)
@@ -4512,7 +4522,7 @@
 			(uuid "e54b8a35-d06f-47ab-9811-94bd3ac674e9")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J1")
 					(unit 1)
@@ -4600,7 +4610,7 @@
 			(uuid "d2bc4172-366b-4bf1-9a8b-152be725a6c9")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "D1")
 					(unit 1)
@@ -4667,7 +4677,7 @@
 			(uuid "f6a8fd25-7294-4d91-82a0-9f2ba75af4f9")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "R2")
 					(unit 1)
@@ -4735,7 +4745,7 @@
 			(uuid "a31dbb14-d098-424a-baed-dc5bcb0ac8de")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR013")
 					(unit 1)
@@ -4911,7 +4921,7 @@
 			(uuid "5cf67d1f-33c8-4d05-9c0f-2e4370c32960")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "nmcuesp1")
 					(unit 1)
@@ -4979,7 +4989,7 @@
 			(uuid "2b9a6fce-f327-43a7-881e-522bf6faa5a2")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR016")
 					(unit 1)
@@ -5046,7 +5056,7 @@
 			(uuid "1c682b72-805d-4dfb-bd78-4e3dc7a874a3")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "R10")
 					(unit 1)
@@ -5114,7 +5124,7 @@
 			(uuid "f2704e89-1042-495c-805f-ae4b090c359f")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR019")
 					(unit 1)
@@ -5182,7 +5192,7 @@
 			(uuid "c65b285b-de0f-4290-a082-ddfa6291d094")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J3")
 					(unit 1)
@@ -5255,7 +5265,7 @@
 			(uuid "e092906c-b4ab-4fce-a0f9-9eadbb016bd4")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J7")
 					(unit 1)
@@ -5331,7 +5341,7 @@
 			(uuid "3f41dc88-d3d7-4474-bea1-0ca4fec50338")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "Q2")
 					(unit 1)
@@ -5341,7 +5351,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 69.85 99.06 180)
+		(at 69.85 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5350,7 +5360,7 @@
 		(fields_autoplaced yes)
 		(uuid "e45fc439-2817-4ca4-995d-2f0fc85b1967")
 		(property "Reference" "#PWR014"
-			(at 69.85 92.71 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5369,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 69.8499 95.25 90)
+			(at 69.8501 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5409,7 @@
 			(uuid "0e8209ef-32db-4b36-ab8f-3eb6f6a609f5")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR014")
 					(unit 1)
@@ -5466,7 +5476,7 @@
 			(uuid "94b04f6f-64f7-484e-89a8-c24d2b2359ea")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J4")
 					(unit 1)
@@ -5533,7 +5543,7 @@
 			(uuid "71ff775a-b5a3-44fa-a620-42a84eb67a77")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "R1")
 					(unit 1)
@@ -5600,7 +5610,7 @@
 			(uuid "99cd4a17-3b67-4c69-9711-ffdcc93d8cee")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "R9")
 					(unit 1)
@@ -5669,7 +5679,7 @@
 			(uuid "8da2a15d-94b0-4361-b3de-add4317d8c28")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "J5")
 					(unit 1)
@@ -5737,7 +5747,7 @@
 			(uuid "2fbed00a-6fbe-480d-bd5b-fcc320f6c065")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "#PWR018")
 					(unit 1)
@@ -5859,7 +5869,7 @@
 			(uuid "e5d6f4bb-1ddd-476f-b6b5-830f0254641e")
 		)
 		(instances
-			(project "Kiez"
+			(project "KiezBox_SensorBoard"
 				(path "/71988336-53be-4146-9620-c6f8a6cd88ad"
 					(reference "loraBee1")
 					(unit 1)
